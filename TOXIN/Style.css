@@ -1,0 +1,35 @@
+.body {
+  background-image: url(./img/Landing.png);
+}
+
+.container_top {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+  background-color: blue;
+}
+.logo {
+  float: left;
+  background-color: red;
+}
+.logo_img {
+  width: 105.69px;
+  height: 40px;
+}
+.nav {
+  float: right;
+  background-color: green;
+}
+.top_url {
+  list-style: none;
+  text-decoration: none;
+  line-height: 20px;
+}
+.top_url li {
+  display: inline;
+}
+.container_top:after {
+  content: "";
+  display: table;
+  clear: both;
+}
