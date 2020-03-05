@@ -1,35 +1,74 @@
 .body {
   background-image: url(./img/Landing.png);
 }
-
+/*Шапка*/
 .container_top {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding: 15px;
-  margin: 0 auto;
-  background-color: blue;
+  height: 70px;
+  background-color: white;
 }
 .logo {
-  float: left;
-  background-color: red;
+  position: absolute;
+  top: 15px;
+  left: 10%;
 }
-.logo_img {
+.logo_a {
+
+}
+.logo_a_img {
   width: 105.69px;
   height: 40px;
 }
 .nav {
-  float: right;
-  background-color: green;
+  position: absolute;
+  top: 10px;
+  right: 5%
 }
-.top_url {
-  list-style: none;
-  text-decoration: none;
-  line-height: 20px;
+.nav_ul {
+
 }
-.top_url li {
+.nav_ul_li {
   display: inline;
+  margin-right: 10px;
 }
-.container_top:after {
-  content: "";
-  display: table;
-  clear: both;
+
+/*Тело*/
+.main {
+  position: absolute;
+  top: 70px;
+  left: 0;
 }
+.main_searchForm {
+
+}
+.main_text {
+
+}
+
+/*Подвал*/
+.footer {}
+.footer_top {}
+.footer_top_one {}
+.footer_top_one_ul {}
+.footer_top_one_ul_li {}
+.logoBottom_a {}
+.logoBottom_a_img {}
+.footer_top_two {}
+.footer_top_two_ul {}
+.footer_top_two_ul_li {}
+.footer_top_three {}
+.footer_top_three_ul {}
+.footer_top_three_ul_li {}
+.footer_top_four {}
+.footer_top_four_ul {}
+.footer_top_four_ul_li {}
+.footer_top_five {}
+.footer_top_five_ul {}
+.footer_top_five_ul_li {}
+.formEmail {}
+.footer_bottom {}
+.footer_bottom_text {}
+.footer_bottom_a {}
