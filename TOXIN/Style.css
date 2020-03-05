@@ -1,5 +1,6 @@
 .body {
   background-image: url(./img/Landing.png);
+  background-repeat: no-repeat;
 }
 /*Шапка*/
 .container_top {
@@ -38,37 +39,95 @@
 /*Тело*/
 .main {
   position: absolute;
+  width: 100%;
+  height: 830px;
   top: 70px;
   left: 0;
 }
 .main_searchForm {
-
+  position: absolute;
+  width: 380px;
+  height: 374px;
+  top: 70px;
+  left: 10%;
+  background-color: white;
 }
 .main_text {
-
+  position: absolute;
+  top: 90%;
+  right: 5%;
 }
 
 /*Подвал*/
-.footer {}
+.footer {
+  position: absolute;
+  top: 900px;
+  left: 0;
+  width: 100%;
+  height: 442px;
+  background-color: white;
+}
 .footer_top {}
-.footer_top_one {}
-.footer_top_one_ul {}
+.footer_top_one {
+  position: absolute;
+  top: 100px;
+  left: 5%
+}
+.footer_top_one_ul {
+}
 .footer_top_one_ul_li {}
 .logoBottom_a {}
-.logoBottom_a_img {}
-.footer_top_two {}
-.footer_top_two_ul {}
+.logoBottom_a_img {
+  width: 105.69px;
+  height: 40px;
+}
+.footer_top_two {
+  position: absolute;
+  top: 100px;
+  left: 20%;
+}
+.footer_top_two_ul {
+}
 .footer_top_two_ul_li {}
-.footer_top_three {}
-.footer_top_three_ul {}
+.footer_top_three {
+  position: absolute;
+  top: 100px;
+  left: 35%;
+}
+.footer_top_three_ul {
+}
 .footer_top_three_ul_li {}
-.footer_top_four {}
-.footer_top_four_ul {}
+.footer_top_four {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+}
+.footer_top_four_ul {
+}
 .footer_top_four_ul_li {}
-.footer_top_five {}
-.footer_top_five_ul {}
+.footer_top_five {
+  position: absolute;
+  top: 100px;
+  left: 65%;
+}
+.footer_top_five_ul {
+}
 .footer_top_five_ul_li {}
 .formEmail {}
-.footer_bottom {}
-.footer_bottom_text {}
-.footer_bottom_a {}
+.footer_bottom {
+  position: absolute;
+  top: 372px;
+  left: 0;
+  width: 100%;
+  height: 70px;
+}
+.footer_bottom_text {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.footer_bottom_a {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
