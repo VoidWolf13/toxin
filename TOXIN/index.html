@@ -15,48 +15,61 @@
         <nav class="nav">
           <ul class="nav_ul">
             <li class="nav_ul_li"><a href="#">О нас</a></li>
-            <li class="nav_ul_li"><a href="#">Услуги</a></li>
+            <li class="nav_ul_li"><a href="#">Услуги</a>
+              <ul class="nav_ul_li_submenu">
+                <li>Услуга0</li>
+                <li>Услуга1</li>
+                <li>Услуга2</li>
+              </ul>
+            </li>
             <li class="nav_ul_li"><a href="#">Вакансии</a></li>
             <li class="nav_ul_li"><a href="#">Новости</a></li>
             <li class="nav_ul_li"><a href="#">Соглашения</a></li>
-            <li class="nav_ul_li"><button id="login" type="button" name="button">Войти</button></li>
-            <li class="nav_ul_li"><button id="register" type="button" name="button">Зарегестрироваться</button></li>
+            <li class="nav_ul_li">
+              <button type="button" id="buttonEnter">
+                <a href="#">ВОЙТИ
+                </a>
+              </button>
+              </li>
+            <li class="nav_ul_li">
+              <button type="button" id="buttonRegister">
+                <a href="#">ЗАРЕГИСТРИРОВАТЬСЯ
+                </a>
+              </button>
+            </li>
           </ul>
         </nav>
     </header>
     <div class="main">
       <div class="main_searchForm">
         <div class="main_searchForm_textTitle">
-          Найдём номера под ваши пожелания.
+          <h1>Найдём номера под ваши пожелания.</h1>
         </div>
         <div class="main_searchForm_textF1">
-          Прибытие
+          <h3>Прибытие</h3>
         </div>
         <div class="main_searchForm_textF2">
-          Выезд
+          <h3>Выезд</h3>
         </div>
         <div class="main_searchForm_form1">
           <input type="date" id="inputDate">
-        </input>
         </div>
         <div class="main_searchForm_form2">
           <input type="date" id="inputDate">
-        </input>
         </div>
         <div class="main_searchForm_textF3">
-          Гости
+          <h3>Гости</h3>
         </div>
         <div class="main_searchForm_form3">
-          <select class="" name="">
+          <select class="" id="selectSearch">
             <option>Сколько гостей</option>
             <option value="">Взрослых</option>
             <option value="">Детей</option>
+            <option value="">Младенцев</option>
           </select>
         </div>
         <div class="main_searchForm_button">
-          <button id="button_searchForm" type="button" name="button">
-            Подобрать номер
-          </button>
+          <input type="button" id="buttonSearch" value="ПОДОБРАТЬ НОМЕР">
         </div>
       </div>
       <div class="main_text">
@@ -83,7 +96,7 @@
         <div class="footer_top_two">
           <ul class="footer_top_two_ul">
             <li class="footer_top_two_ul_li">
-              НАВИГАЦИЯ
+              <h3>НАВИГАЦИЯ</h3>
             </li>
             <li class="footer_top_two_ul_li">
               <a href="#">О нас</a>
@@ -102,7 +115,7 @@
         <div class="footer_top_three">
           <ul class="footer_top_three_ul">
             <li class="footer_top_three_ul_li">
-              О НАС
+              <h3>О НАС</h3>
             </li>
             <li class="footer_top_three_ul_li">
               <a href="#">О сервисе</a>
@@ -121,7 +134,7 @@
         <div class="footer_top_four">
           <ul class="footer_top_four_ul">
             <li class="footer_top_four_ul_li">
-              СЛУЖБА ПОДДЕРЖКИ
+              <h3>СЛУЖБА ПОДДЕРЖКИ</h3>
             </li>
             <li class="footer_top_four_ul_li">
               <a href="#">Соглашения</a>
@@ -137,7 +150,7 @@
         <div class="footer_top_five">
           <ul class="footer_top_five_ul">
             <li class="footer_top_five_ul_li">
-              ПОДПИСКА
+              <h3>ПОДПИСКА</h3>
             </li>
             <li class="footer_top_five_ul_li">
               Получайте специальные<br>
@@ -145,7 +158,7 @@
             </li>
             <li class="footer_top_five_ul_li">
               <form class="formEmail" action="index.html" method="post">
-                FORM
+                <input type="email" name="" value="">
               </form>
             </li>
           </ul>
