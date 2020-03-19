@@ -1,0 +1,13 @@
+.header__button-login {
+  width: 87px;
+  height: 34px;
+  border-radius: 22px;
+  border-color: #BC9CFF;
+  border-bottom-style: solid;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
