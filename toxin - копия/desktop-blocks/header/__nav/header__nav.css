@@ -1,0 +1,23 @@
+.header__nav {
+  width: 446px;
+  height: 21px;
+}
+
+.header__nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.header__nav li {
+  display: inline;
+}
+
+.header__submenu {
+  position: relative;
+}
+
+.header__submenu-item {
+  position: absolute;
+  display: none;
+}
