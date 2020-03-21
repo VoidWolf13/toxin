@@ -51,6 +51,7 @@
 
 .dropdown__select {
   position: absolute;
+  visibility: collapse;
   top: 42.56px;
   left: -1px;
   width: 320px;
@@ -58,6 +59,7 @@
   background: #FFFFFF;
   border: 1px solid rgba(31, 32, 65, 0.5);
   box-sizing: border-box;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .dropdown-guest__select-one .select-one__text {
