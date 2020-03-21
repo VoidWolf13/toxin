@@ -1,0 +1,155 @@
+.dropdown-guest__select-three .select-three__but-plus, .dropdown-guest__select-three .select-three__but-minus, .dropdown-guest__select-two .select-two__but-plus, .dropdown-guest__select-two .select-two__but-minus, .dropdown-guest__select-one .select-one__but-plus, .dropdown-guest__select-one .select-one__but-minus {
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 22px;
+}
+
+.dropdown-guest__select-three .select-three__but-plus, .dropdown-guest__select-three .select-three__but-minus, .dropdown-guest__select-two .select-two__but-plus, .dropdown-guest__select-two .select-two__but-minus, .dropdown-guest__select-one .select-one__but-plus, .dropdown-guest__select-one .select-one__but-minus {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.dropdown-guest {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.dropdown-guest__top {
+  width: 320px;
+  height: 44px;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+
+.dropdown-guest__text {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+}
+
+.dropdown-guest__expand {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0px;
+  right: 0px;
+}
+
+.expand__img {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+
+.dropdown__select {
+  position: absolute;
+  top: 42.56px;
+  left: -1px;
+  width: 320px;
+  height: 159px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  box-sizing: border-box;
+}
+
+.dropdown-guest__select-one .select-one__text {
+  position: absolute;
+  top: 12.56px;
+  left: 15px;
+}
+.dropdown-guest__select-one .select-one__but-minus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 221px;
+  top: 7px;
+}
+.dropdown-guest__select-one .select-one__guest {
+  position: absolute;
+  left: 264px;
+  top: 12px;
+}
+.dropdown-guest__select-one .select-one__but-plus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 283px;
+  top: 7px;
+}
+
+.dropdown-guest__select-two .select-two__text {
+  position: absolute;
+  top: 50px;
+  left: 15px;
+}
+.dropdown-guest__select-two .select-two__but-minus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 221px;
+  top: 44px;
+}
+.dropdown-guest__select-two .select-two__guest {
+  position: absolute;
+  left: 264px;
+  top: 51px;
+}
+.dropdown-guest__select-two .select-two__but-plus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 283px;
+  top: 44px;
+}
+
+.dropdown-guest__select-three .select-three__text {
+  position: absolute;
+  top: 87px;
+  left: 15px;
+}
+.dropdown-guest__select-three .select-three__but-minus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 221px;
+  top: 81px;
+}
+.dropdown-guest__select-three .select-three__guest {
+  position: absolute;
+  left: 264px;
+  top: 85px;
+}
+.dropdown-guest__select-three .select-three__but-plus {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 283px;
+  top: 81px;
+}
+
+.dropdown-guest__down .down__cancel {
+  position: absolute;
+  left: 14px;
+  top: 131px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: white;
+}
+.dropdown-guest__down .down__ok {
+  position: absolute;
+  left: 229px;
+  top: 131px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background-color: white;
+}

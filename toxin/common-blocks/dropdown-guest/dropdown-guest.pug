@@ -3,23 +3,26 @@ html(lang="en")
     meta(charset="UTF-8")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Document
-    link(rel="stylesheet", href="drop-down.css")
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand&display=swap" rel="stylesheet">
+    link(rel="stylesheet", href="dropdown-guest.css")
+    link(rel="stylesheet", href="h3-font.css")
+    link(rel="stylesheet", href="body-font.css")
   body
     .dropdown-guest
       .dropdown-guest__top
-        .dropdown-guest__text Сколько гостей
+        .dropdown-guest__text.body-font Сколько гостей
         .dropdown-guest__expand
           img.expand__img(src="expand-more.png", alt="")
         .dropdown__select
           .dropdown-guest__select-one
             .select-one__text.h3-font взрослые
             button.select-one__but-minus -
-            .select-one__guest.h3-font 0
+            .select-one__guest.h3-font 2
             button.select-one__but-plus +
           .dropdown-guest__select-two
             .select-two__text.h3-font дети
             button.select-two__but-minus -
-            .select-two__guest.h3-font 0
+            .select-two__guest.h3-font 1
             button.select-two__but-plus +
           .dropdown-guest__select-three
             .select-three__text.h3-font младенцы
@@ -27,7 +30,7 @@ html(lang="en")
             .select-three__guest.h3-font 0
             button.select-three__but-plus +
           .dropdown-guest__down
-            button.down__cancel Очистить
-            button.down__ok Применить
+            button.down__cancel.h3-font Очистить 
+            button.down__ok.h3-font Применить
 
       
