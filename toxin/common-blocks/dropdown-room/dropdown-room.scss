@@ -13,8 +13,8 @@
   color: rgba(31, 32, 65, 0.5);
 }
 
-.dropdown-guest__top {
-  width: 320px;
+.dropdown-room__top {
+  width: 266px;
   height: 44px;
   border: 1px solid rgba(31, 32, 65, 0.5);
   box-sizing: border-box;
@@ -24,7 +24,7 @@
   top: 0px;
   left: 0px;
 }
-.dropdown-guest__top--open {
+.dropdown-room__top--open {
   border-top: 1;
   border-right: 1;
   border-bottom: 0;
@@ -32,12 +32,12 @@
   border-radius: 4px 4px 0px 0px;
 
 }
-.dropdown-guest__text {
+.dropdown-room__text {
   position: absolute;
   top: 9px;
   left: 15px;
 }
-.dropdown-guest__expand {
+.dropdown-room__expand {
   position: absolute;
   width: 44px;
   height: 44px;
@@ -54,8 +54,8 @@
   visibility: collapse;
   top: 42.56px;
   left: -1px;
-  width: 320px;
-  height: 159px;
+  width: 266px;
+  height: 119px;
 
   background: #FFFFFF;
 
@@ -66,7 +66,7 @@
 .dropdown__select--visible {
   visibility: visible;
 }
-.dropdown-guest__select-one {
+.dropdown-room__select-one {
   .select-one__text {
     position: absolute;
     top: 12px;
@@ -78,13 +78,13 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 221px;
+    left: 167px;
     top: 7px;
   }
-  .select-one__guest {
+  .select-one__room {
     position: absolute;
-    left: 264px;
-    top: 12px;
+    left: 210px;
+    top: 13px;
   }
   .select-one__but-plus {
     @extend %but-form;
@@ -92,11 +92,11 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 283px;
+    left: 229px;
     top: 7px;
   }
 }
-.dropdown-guest__select-two {
+.dropdown-room__select-two {
   .select-two__text {
     position: absolute;
     top: 50px;
@@ -108,12 +108,12 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 221px;
+    left: 167px;
     top: 44px;
   }
-  .select-two__guest {
+  .select-two__room {
     position: absolute;
-    left: 264px;
+    left: 210px;
     top: 50px;
   }
   .select-two__but-plus {
@@ -122,11 +122,11 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 283px;
+    left: 229px;
     top: 44px;
   }
 }
-.dropdown-guest__select-three {
+.dropdown-room__select-three {
   .select-three__text {
     position: absolute;
     top: 87px;
@@ -138,12 +138,12 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 221px;
+    left: 167px;
     top: 81px;
   }
-  .select-three__guest {
+  .select-three__room {
     position: absolute;
-    left: 264px;
+    left: 210px;
     top: 87px;
   }
   .select-three__but-plus {
@@ -152,11 +152,11 @@
     position: absolute;
     width: 30px;
     height: 30px;
-    left: 283px;
+    left: 229px;
     top: 81px;
   }
 }
-.dropdown-guest__down {
+.dropdown-room__down {
   .down__cancel {
     position: absolute;
     left: 14px;

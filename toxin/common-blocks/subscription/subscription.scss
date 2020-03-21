@@ -1,0 +1,43 @@
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content; }
+  &:-moz-placeholder           { @content; }
+  &::-moz-placeholder          { @content; }
+  &:-ms-input-placeholder      { @content; }  
+}
+
+.subscription {
+  position: absolute;
+  width: 267px;
+  height: 44px;
+  background: #FFFFFF;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  .subscription__input {
+    position: absolute;
+    height: 42px;
+    width: 223px;
+    left: 0px;
+    top: 0px;
+    border: 0px;
+    border-radius: 4px 0px 0px 4px;
+    @include placeholder {
+      text-indent: 14px;
+      color: rgba(31, 32, 65, 0.25);
+    }
+  }
+  .subscription__arrow-forward {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0px;
+    right: 0px;
+    .arrow-forward__img {
+      position: absolute;
+      top: 12px;
+      left: 14px;
+
+    }
+  }
+}
