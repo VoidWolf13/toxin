@@ -1,0 +1,27 @@
+.like-but {
+  padding: 0px;
+  margin: 0px;
+  .like-but__box{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    box-sizing: border-box;
+    border-radius: 10px;
+    .like-but__icon {
+      position: absolute;
+      top: 5px;
+      left: 4px;
+    }
+    .like-but__point {
+      position: absolute;
+      top: -4px;
+      left: 20px;
+      font-size: 10px;
+      color: rgba(31, 32, 65, 0.25);
+    }
+  }
+}
